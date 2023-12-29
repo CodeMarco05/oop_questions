@@ -1,0 +1,22 @@
+body{
+    background-image: url(../../assets/background.jpg);
+    background-repeat: none;
+    background-size:cover;
+    
+}
+
+.text{
+    margin-top: 20%;
+    font-size: 70px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(53, 53, 53);
+}
+.text_2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+    color: rgb(53, 53, 53);
+}
+.emoji{
+    font-size: 40px;
+}
