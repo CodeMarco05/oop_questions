@@ -55,3 +55,12 @@ body {
     font-size: 40px;
     color: rgb(53, 53, 53);
 }
+
+#counter {
+    position: fixed; /* or use "absolute" for relative to its containing element */
+    bottom: 0;
+    left: 0;
+    color: rgb(53, 53, 53);
+    padding: 10px; /* Add some padding for better visibility */
+    font-family: 'Kanit', sans-serif;
+}

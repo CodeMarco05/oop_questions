@@ -103,5 +103,152 @@
                 "right": false
             }
         ]
+    },
+    {
+        "question": "Was versteht man unter Vererbung?",
+        "answers": [
+            {
+                "text": "ermöglicht Klassen zu ändern",
+                "right": false
+            },
+            {
+                "text": "ermöglicht Klassen zu löschen",
+                "right": false
+            },
+            {
+                "text": "ermöglicht vorhandene Klassen nach Bedarf zu verringern",
+                "right": false
+            },
+            {
+                "text": "ermöglicht vorhandene Klassen nach Bedarf zu erweitern",
+                "right":true
+            }
+        ]
+    },
+    {
+        "question": "Was ist unidirektional?",
+        "answers": [
+            {
+                "text": "es kann von allen Klassen auf alle Objekte zugegriffen werden",
+                "right": false
+            },
+            {
+                "text": "Klassen können nicht voneinander erben",
+                "right": false
+            },
+            {
+                "text": "nur Objekte der einen Klasse können auf Objekte der anderen zugreifen",
+                "right": true
+            },
+            {
+                "text": "Objekte kommunizieren einseitig in einem Kreis",
+                "right":false
+            }
+        ]
+    },
+    {
+        "question": "UML-Notaion 'set Methode'",
+        "answers": [
+            {
+                "text": "+ setAttributname(<Parameter> : <Datentyp>)",
+                "right": true
+            },
+            {
+                "text": "- setDatentyp(<Parameter> : <Datentyp>)",
+                "right": false
+            },
+            {
+                "text": "- setAttributname(<Parameter> : <Datentyp>)",
+                "right": false
+            },
+            {
+                "text": "+ setAttributname : Parameter",
+                "right":false
+            }
+        ]
+    },
+    {
+        "question": "UML-Notaion 'get Methode'",
+        "answers": [
+            {
+                "text": "- getAttributname():<Datentyp>",
+                "right": false
+            },
+            {
+                "text": "- getParameter(<Attribut> : <Datentyp>)",
+                "right": false
+            },
+            {
+                "text": "+ getAttributname():<Datentyp>",
+                "right": true
+            },
+            {
+                "text": "+ getAttributname : Datentyp",
+                "right":false
+            }
+        ]
+    },
+    {
+        "question": "#protected = direkter Zugriff auf Attribute/Methoden des Objekts nur",
+        "answers": [
+            {
+                "text": "in keiner Klasse möglich",
+                "right": false
+            },
+            {
+                "text": "in allen Klassen möglich",
+                "right": false
+            },
+            {
+                "text": "außerhalb der Klasse möglich",
+                "right": false
+            },
+            {
+                "text": "innerhalb der Klasse möglich",
+                "right":true
+            }
+        ]
+    },
+    {
+        "question": "+public = Zugriff auf Attribute/Methoden des Objekts ist",
+        "answers": [
+            {
+                "text": "nur innerhalb der erbenden Klasse möglich",
+                "right": false
+            },
+            {
+                "text": "uneingeschränkt",
+                "right": true
+            },
+            {
+                "text": "nur in einer Superklasse möglich",
+                "right": false
+            },
+            {
+                "text": "nur in einer einzigen Klasse möglich",
+                "right":false
+            }
+        ]
+    },
+    {
+        "question": "-private = direkter Zugriff auf Attribute/Methoden des Objekts nur",
+        "answers": [
+            {
+                "text": "außerhalb der Klasse möglich",
+                "right": false
+            },
+            {
+                "text": "in Superklasse und Subklassen möglich",
+                "right": false
+            },
+            {
+                "text": "in allen Klassen möglich",
+                "right": false
+            },
+            {
+                "text": "innerhalb der Klasse möglich",
+                "right":true
+            }
+        ]
     }
 ]

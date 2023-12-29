@@ -60,6 +60,12 @@ window.onload = async function () {
     questionIndex = parameters.get('questionIndex')
     await loadQuestion()
     setQuestions()
+    setQuestionCounter()
+}
+
+function setQuestionCounter(){
+    let q = Number(questionIndex) + 1
+    document.getElementById('counter').innerText = `Frage ${q} von ${totalNumberOfQuestions}`
 }
 
 function setQuestions() {
