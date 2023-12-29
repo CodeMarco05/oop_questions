@@ -8,7 +8,7 @@
     border-color: steelblue;
     text-align: center;
     font-size: 60px;
-    margin-top: 10%;
+    margin-top: 7%;
     padding: 10px;
     color: steelblue;
 }
@@ -31,5 +31,8 @@ body{
 h1{
     font-family: 'Permanent Marker', cursive;
     margin-top: 10%;
+    font-size: 60px;
+    max-width: fit-content;
+    color: rgb(53, 53, 53);
 }
 
