@@ -1,0 +1,47 @@
+body {
+    background-image: url(../../assets/background.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.questionContainer {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.questionElement {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    min-width: calc(100% - 120px);
+    padding: 10px;
+    
+}
+
+.clickable {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#commitButton{
+    max-width: 800px;
+    border: 2px solid steelblue;
+    border-radius: 15px ;
+    cursor: pointer;
+    border-color: steelblue;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 100px;
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+}

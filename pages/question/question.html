@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <center>
+        <h1 id="question"></h1>
+    </center>
+
+    <div class="questionContainer">
+        <div class="row">
+            <div id="firstClickable" class="clickable" onclick="elementClicked(0)"></div>
+            <div id="firstAnswer" class="questionElement"></div>
+        </div>
+        <div class="row">
+            <div id="secondClickable" class="clickable" onclick="elementClicked(1)"></div>
+            <div id="secondAnswer" class="questionElement"></div>
+        </div>
+        <div class="row">
+            <div id="thirdClickable" class="clickable" onclick="elementClicked(2)"></div>
+            <div id="thirdAnswer" class="questionElement"></div>
+        </div>
+        <div class="row">
+            <div id="fourthClickable" class="clickable" onclick="elementClicked(3)"></div>
+            <div id="fourthAnswer" class="questionElement"></div>
+        </div>
+    </div>
+
+    <center>
+        <div id="commitButton" onclick="submitAnswer()">
+            Antwort abgeben
+        </div>
+    </center>
+    
+
+    <script src="./script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+</body>
+
+</html>

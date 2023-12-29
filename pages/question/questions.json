@@ -1,0 +1,107 @@
+[
+    {
+        "question":"Wie lauten die Zugriffsmodefikatoren?",
+        "answers":[
+            {
+                "text": "# private, - protected, + public",
+                "right": false
+            },
+            {
+                "text": "- private, # protected, + public",
+                "right": true
+            },
+            {
+                "text": "+ private, # protected, - public",
+                "right": false
+            },
+            {
+                "text": "+ private, - protected, # public",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Wodurch kann man die Instanz einer Klasse voneinander unterscheiden?",
+        "answers": [
+            {
+                "text": "durch ihre Attributwerte",
+                "right": true
+            },
+            {
+                "text": "durch ihre Namen",
+                "right": false
+            },
+            {
+                "text": "durch ihre Inhalte",
+                "right": false
+            },
+            {
+                "text": "durch ihre Instanz",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Als was kann man Klassen noch sehen?",
+        "answers": [
+            {
+                "text": "Sammlungen von Instanzen mit unterschiedlichen Objekten",
+                "right": false
+            },
+            {
+                "text": "Sammlungen von Variablen mit unterschiedlichen Namen",
+                "right": false
+            },
+            {
+                "text": "Sammlungen von Wörtern mit unterschiedlichen Anfangsbuchstaben",
+                "right": false
+            },
+            {
+                "text": "Sammlungen von Variablen mit unterschiedlichen Typen",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Was sind Klassen?",
+        "answers": [
+            {
+                "text": "eingeteilte Datentypen mit Schlagwörtern",
+                "right": false
+            },
+            {
+                "text": "klar gekennzeichnete Grenzen von Datentypen",
+                "right": false
+            },
+            {
+                "text": "selbst definierte Datentypen",
+                "right": true
+            },
+            {
+                "text": "selbst definierte Methoden",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Wann ist ein eingeschränkter Zugriff einer Methode mit private sinnvoll?",
+        "answers": [
+            {
+                "text": "wennn Methode nur aus eigener Klasse abgerufen werden soll",
+                "right": true
+            },
+            {
+                "text": "wenn Methode von allen Klassen abgerufen werden soll",
+                "right": false
+            },
+            {
+                "text": "wenn Methode nicht von eigener Klasse abgerufen werden darf",
+                "right": false
+            },
+            {
+                "text": "wenn Methode mit einer anderen verknüpft werden soll",
+                "right": false
+            }
+        ]
+    }
+]
