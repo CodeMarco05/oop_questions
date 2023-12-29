@@ -147,7 +147,7 @@
         ]
     },
     {
-        "question": "UML-Notaion 'set Methode'",
+        "question": "UML-Notation 'set Methode'",
         "answers": [
             {
                 "text": "+ setAttributname(<Parameter> : <Datentyp>)",
@@ -168,7 +168,7 @@
         ]
     },
     {
-        "question": "UML-Notaion 'get Methode'",
+        "question": "UML-Notation 'get Methode'",
         "answers": [
             {
                 "text": "- getAttributname():<Datentyp>",
@@ -248,6 +248,195 @@
             {
                 "text": "innerhalb der Klasse möglich",
                 "right":true
+            }
+        ]
+    },
+    {
+        "question": "Vorteil objektiorientierter Programmierung",
+        "answers": [
+            {
+                "text": "Modularität -> kann Aufgaben unabhängig lösen",
+                "right": true
+            },
+            {
+                "text": "Kapselung -> Objekte sind in sich geschlossen",
+                "right": true
+            },
+            {
+                "text": "Wiederverwendbarkeit -> kann Code wiederverwenden",
+                "right": true
+            },
+            {
+                "text": "Koplexität -> zerlegen ein Problem in mehrere Aufgaben",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Was entspricht dem Rollenname im Quellcode?",
+        "answers": [
+            {
+                "text": "Objektname",
+                "right": true
+            },
+            {
+                "text": "Klassenname",
+                "right": false
+            },
+            {
+                "text": "Objekt",
+                "right": false
+            },
+            {
+                "text": "Klasse",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Was gibt die Kardinalität an?",
+        "answers": [
+            {
+                "text": "Anzahl der bereits erstellten Objekte",
+                "right": false
+            },
+            {
+                "text": "Anzahl der Objekte die erstellt werden müssen",
+                "right": false
+            },
+            {
+                "text": "Anzahl der Objekte, die erben",
+                "right": false
+            },
+            {
+                "text": "Anzahl der möglichen Objekte",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Wie kann die Aggregation beschrieben werden?",
+        "answers": [
+            {
+                "text": "'ist kein Teil von', 'besteht nicht aus'",
+                "right": false
+            },
+            {
+                "text": "'ist Teil von', 'besteht aus'",
+                "right": true
+            },
+            {
+                "text": "'verbindet sich mit'",
+                "right": false
+            },
+            {
+                "text": "'verringert', 'reduziert'",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Wie werden Assoziationen im Klassendiagramm gekennzeichnet?",
+        "answers": [
+            {
+                "text": "ausgefüllte Raute",
+                "right": false
+            },
+            {
+                "text": "leerer Pfeil",
+                "right": false
+            },
+            {
+                "text": "ausgefüllter Pfeil",
+                "right": true
+            },
+            {
+                "text": "leere Raute",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Was sind Attribute?",
+        "answers": [
+            {
+                "text": "Eigenschaften einer Klasse",
+                "right": false
+            },
+            {
+                "text": "Eigenschaften eins Objekts",
+                "right": true
+            },
+            {
+                "text": "Datentypen eines Klasse",
+                "right": false
+            },
+            {
+                "text": "Datentypen eines Objekts",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Was versteht man unter bidirektional?",
+        "answers": [
+            {
+                "text": "der Zugriff auf Objekte wird unterbunden",
+                "right": false
+            },
+            {
+                "text": "es kann je nur einer auf ein anderes Objekt zugreifen",
+                "right": false
+            },
+            {
+                "text": "nur ein Objekt kann auf ein anders zugreifen",
+                "right": false
+            },
+            {
+                "text": "beide Objekte könenn aufeinander zugreifen",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Wie nennt sich der Prozess der Kapselung?",
+        "answers": [
+            {
+                "text": "data hiding",
+                "right": true
+            },
+            {
+                "text": "abstract hiding",
+                "right": false
+            },
+            {
+                "text": "class hiding",
+                "right": false
+            },
+            {
+                "text": "object hiding",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Was sind die vier Grundpfeiler der OOP?",
+        "answers": [
+            {
+                "text": "Assoziation, Kardinalität, Vererbung, Kapselung",
+                "right": false
+            },
+            {
+                "text": "Kapselung, Assoziation, Vererbung, Polymorphie",
+                "right": true
+            },
+            {
+                "text": "Polymorphie, Kapselung, Vererbung, Komposition",
+                "right": false
+            },
+            {
+                "text": "Kapselung, Rollenname, Komposition, Assoziation",
+                "right": false
             }
         ]
     }
