@@ -3,7 +3,7 @@ body {
     background-repeat: none;
     background-size: cover;
 }
-
+/*Klasse, mehrmals verwendbar*/
 .questionContainer {
     border: 2px solid black;
     border-radius: 10px;
@@ -35,7 +35,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
 }
-
+/*ID, einmal verwendbar*/
 #commitButton{
     max-width: 800px;
     border: 2px solid steelblue;

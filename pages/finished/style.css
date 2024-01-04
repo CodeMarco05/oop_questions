@@ -3,7 +3,7 @@ body{
     background-repeat: none;
     background-size:cover;
 }
-
+/*Klasse, mehrmals verwendbar*/
 .text{
     margin-top: 20%;
     font-size: 70px;

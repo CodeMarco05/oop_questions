@@ -1,4 +1,4 @@
-
+/*Klasse mehrfach verwendbar*/
 .button{
     font-family: 'Permanent Marker', cursive;
     max-width: 800px;
@@ -12,7 +12,7 @@
     padding: 10px;
     color: steelblue;
 }
-
+/*alles im 'body' erhaehlt die Formatierung*/
 body{
     background-image: url(./assets/background.jpg);
     background-repeat: none;
