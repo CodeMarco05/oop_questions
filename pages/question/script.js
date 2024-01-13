@@ -5,6 +5,7 @@ let questionIndex   //speichert den Index fuer die Frage
 let selectedAnswer  //speichert den Index für das ausgeaehlte Element
 let totalNumberOfQuestions
 
+
 //Funktion wird aufgerufen sobald eine Antwortmöglichketi gewaehlt wird
 function elementClicked(elementId) {
     if (elementId == 0) {
@@ -54,6 +55,10 @@ function submitAnswer() {
             }
         } else {
             alert('Falsche Antwort, versuche es erneut ;)')
+            let wrongAnswers = localStorage.getItem('wrongAnswers')
+            wrongAnswers = parseInt(wrongAnswers, 10)
+            wrongAnswers++
+            localStorage.setItem('wrongAnswers', wrongAnswers)
         }
     } else {
         alert('Bitte wähle eine Option aus!')
@@ -120,3 +125,4 @@ async function loadQuestion() {
         console.error('Error loading JSON:', error);
     }
 }
+

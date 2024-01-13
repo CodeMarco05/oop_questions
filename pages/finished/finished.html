@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fertig🎉🍾</title>
     <link rel="stylesheet" href="./style.css">
+    <meta name="theme-color" content='#274073'>
 </head>
 
 <body>
@@ -13,7 +14,17 @@
         <div class="text">Gratuliere!</div>
         <div class="text_2">Du hast es gemeistert!</div>
         <div class="emoji">🎉🎊</div>
+        <div id="wrongAnswers"></div>
     </center>
+    <script>
+        window.onload = function(){
+            let textField = document.getElementById('wrongAnswers')
+            let wrongAnswers = localStorage.getItem('wrongAnswers')
+            wrongAnswers = parseInt(wrongAnswers)
+
+            textField.innerHTML = `Du hast ${wrongAnswers} falsche Versuche.`
+        }
+    </script>
 </body>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
